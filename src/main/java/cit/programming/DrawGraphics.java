@@ -12,6 +12,9 @@ public class DrawGraphics {
     BouncingBox box2;
     BouncingBox box3;
     
+    
+    
+    
     /** Initializes this class for drawing. */
     public DrawGraphics() {
         box1 = new BouncingBox(200, 50, Color.BLUE);

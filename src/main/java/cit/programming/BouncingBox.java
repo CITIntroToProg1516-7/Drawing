@@ -15,7 +15,6 @@ public class BouncingBox {
     Color color;
     int xDirection = 0;
     int yDirection = 0;
-    
     final int SIZE = 20;
 
     /**
@@ -25,6 +24,7 @@ public class BouncingBox {
     public BouncingBox(int startX, int startY, Color startColor) {
         x = startX;
         y = startY;
+        setMovementVector(5,2);
         color = startColor;
     }
 
