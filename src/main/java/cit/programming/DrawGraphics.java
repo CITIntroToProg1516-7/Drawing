@@ -18,7 +18,7 @@ public class DrawGraphics {
         array.add(new BouncingBox(20, 1000, Color.BLACK));
        
         array.get(0).setMovementVector(10, -23);
-        array.get(0).setMovementVector(4, 0);
+        array.get(1).setMovementVector(4, 0);
         array.get(2).setMovementVector(30,30);
         
     }
@@ -26,8 +26,8 @@ public class DrawGraphics {
     /** Draw the contents of the window on surface. Called 20 times per second.
      * @param surface */
     public void draw(Graphics surface) {
-        surface.drawLine(50, 50, 250, 250);
-        surface.draw3DRect(1, 3, 3, 7, true);
+        surface.drawLine(2, 4, 6, 8);
+        surface.draw3DRect(10, 30, 30, 70, true);
         surface.drawString("Ninjas", 100, 40); 
         
         for(BouncingBox box: array){ //for every element of bouncing box in the array, draw it
