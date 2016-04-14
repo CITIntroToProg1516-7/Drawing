@@ -24,7 +24,7 @@ public class BouncingBox {
     public BouncingBox(int startX, int startY, Color startColor) {
         x = startX;
         y = startY;
-        setMovementVector(5,2);
+        this.setMovementVector(5,2);
         color = startColor;
     }
 

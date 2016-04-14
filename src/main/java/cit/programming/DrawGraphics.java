@@ -6,8 +6,10 @@
 package cit.programming;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.util.ArrayList;
 
 public class DrawGraphics {
+    static ArrayList<BouncingBox> array = new ArrayList<>();
     BouncingBox box1;
     BouncingBox box2;
     BouncingBox box3;
