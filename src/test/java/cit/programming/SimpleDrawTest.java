@@ -21,7 +21,7 @@ public class SimpleDrawTest {
     @Test
     public void testInstance(){
         SimpleDraw instance = new SimpleDraw(new DrawGraphics());
-        assertTrue(!(instance.draw.box.xDirection == 0));
+        //assertTrue(!(instance.draw.array.xDirection == 0)); What does this do?
     }
     
 }
